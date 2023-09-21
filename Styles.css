@@ -1,0 +1,56 @@
+body {
+    color: white;
+    font-family: Lexend Deca;
+}
+
+h1 {
+    font-family: Big Shoulders Display;
+    
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.Sedans {
+    background-color: hsl(31, 77%, 52%);
+    width: 200px;
+    padding: 10px;
+
+
+}
+
+.SUVs {
+    background-color: hsl(184, 100%, 22%);
+    width: 200px;
+    padding: 10px;
+}
+
+.Luxury {
+    background-color: hsl(179, 100%, 13%);
+    width: 200px;
+    padding: 10px;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+    border-radius: 40px; /* Use border-radius to control the roundness */
+}
+  
+  @media (max-width: 768px) {
+    .Container {
+        display: grid;
+        justify-content: center;
+  }
+  
+}
